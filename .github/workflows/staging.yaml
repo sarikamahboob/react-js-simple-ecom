@@ -54,7 +54,7 @@ name: Docker Image CI/CD for Staging
 
 on:
   push:
-    branches: ["staging"]
+    branches: ["main"]
 
 env:
   DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
